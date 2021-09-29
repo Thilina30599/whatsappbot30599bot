@@ -31,7 +31,7 @@ var cmd_desc = ''
 if (Config.LANG == 'EN') description = 'Shows all ttp commands.', cmd = '*❄ Command:* ', cmd_desc = '*✨ Description:* '
 if (Config.LANG == 'SI') description = 'ttp කමාන්ඩ් ලිස්ට් එක.', cmd = '*❄ කමාන්ඩ්:* ', cmd_desc = '*✨ විස්තර:* '
 if (Config.PSW !== 'kingraviya') {
-QueenSew.newcmdaddtosew({ pattern: 'sewttp$', fromMe: rs, desc: description }, (async (message, match) => {
+QueenSew.newcmdaddtosew({ pattern: 'botttp$', fromMe: rs, desc: description }, (async (message, match) => {
   var t1 = Lang.TTP_DESC
   var t2 = Lang.ATTP_DESC
   var t3 = Config.LANG == 'SI' || Config.LANG == 'EN' ? "වචනය වතුර ආකාරයේ ස්ටිකර් එකක් බවට පත් කරයි." : "Converts text to water-themed sticker."
