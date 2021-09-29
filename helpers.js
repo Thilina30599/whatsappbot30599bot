@@ -14,10 +14,10 @@ function successfullMessage(msg) {
     return "🇱🇰 *Sew Queen👑*:  ```" + msg + "```"
 }
 function errorMessage(msg) {
-    return "🥴 *Sew Queen👑*:  ```" + msg + "```"
+    return "🥴 *Public-Bot👑*:  ```" + msg + "```"
 }
 function infoMessage(msg) {
-    return "❄ *Sew Queen👑*:  ```" + msg + "```"
+    return "❄ *Public-Bot👑*:  ```" + msg + "```"
 }
 
 
